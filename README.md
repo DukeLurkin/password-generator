@@ -53,5 +53,5 @@ Please refer to license in the repo
 https://dukelurkin.github.io/password-generator/
 
 ## Image
-![image](./assets/images/portfolio-page-image.png)
+![image](./image/pwgen.png)
 
