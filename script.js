@@ -45,6 +45,9 @@ function generatePassword() {
     if (playAgain) {
       generatePassword();
     }
+    else {
+      return;
+    }
   }
 
   if (incCaps === true) {
