@@ -50,7 +50,7 @@ Lukas Durkin
 Please refer to license in the repo
 
 ## URL
-https://dukelurkin.github.io/portfolio-page
+https://dukelurkin.github.io/password-generator/
 
 ## Image
 ![image](./assets/images/portfolio-page-image.png)
