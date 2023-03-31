@@ -21,13 +21,9 @@ function generatePassword() {
   console.log(typeof (incLength))
   if (incLength < 8 || incLength > 128) {
     window.alert("must be between 8 & 128")
-    var playAgain = confirm("Would you like to try again?");
-    if (playAgain) {
-      generatePassword();
-    }
-    else {
-      return;
-    }
+
+    return;
+
   }
 
   incCaps = window.confirm("Would you like to include Capital letters?");
@@ -41,14 +37,9 @@ function generatePassword() {
 
   if (!incCaps && !incLow && !incNum && !incSpec) {
     window.alert("must choose at least 1 character type")
-    var playAgain = confirm("Would you like to try again?");
-    if (playAgain) {
-      generatePassword();
+    return;
     }
-    else {
-      return;
-    }
-  }
+  
 
   if (incCaps === true) {
     array = array.concat(capLetters)
@@ -92,7 +83,7 @@ function writePassword() {
     passwordText.value = password;
   }
 
-  
+
 }
 
 // Add event listener to generate button
